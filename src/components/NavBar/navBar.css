@@ -1,0 +1,22 @@
+
+.nav-bar{
+    inline-size: 70%;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    inline-size: 100%
+}
+.nav-bar ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0;
+
+}
+.nav-bar__ul-li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,8 @@
+
+.layout{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    inline-size: calc(100vw - 20px);
+    min-block-size: calc(100vh - 80px);
+}

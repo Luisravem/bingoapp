@@ -1,0 +1,26 @@
+
+
+.window-winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 500px;
+    block-size: 500px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255),
+      #006eff,
+      rgb(0, 0, 0)
+    );
+     & h1{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-shadow: 2px 2px 5px #006eff,-2px -2px 5px #006eff;
+        & span{
+            font-size: 80px;
+
+        }
+     }
+}
