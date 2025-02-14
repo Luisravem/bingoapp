@@ -1,0 +1,13 @@
+
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 10px;
+    background:radial-gradient(transparent,rgb(0, 0, 0)) no-repeat 0 0 / cover,
+      url("../../imgs/balls-6077901_1280.jpg") center /1400px fixed;
+
+}

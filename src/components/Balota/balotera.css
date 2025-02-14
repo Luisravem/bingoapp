@@ -1,0 +1,46 @@
+.balotera-container {
+  display:flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  inline-size: 100%;
+  block-size: 70px;
+  overflow: auto;
+  border-block-end: 1px solid #006eff;
+}
+
+.balota {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 70px;
+  block-size: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+
+  & .balota__num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    inline-size: 100%;
+    block-size: 100%;
+    margin: 5px;
+    user-select: none;
+    
+  }
+}
+ .balotilla{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  inline-size: 30px;
+  block-size: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  user-select: none;
+  background: radial-gradient(circle, rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+  
+ }

@@ -1,0 +1,77 @@
+.game-wrapper{
+
+  inline-size: 100%;
+}
+.cont-cards {
+  display: flex;
+  justify-content: center;
+  inline-size: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  inline-size: 250px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: var(--main-color);
+  text-shadow: 1px 1px 2px #000000, -1px -1px 2px #000000;
+
+  & .card-header {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    block-size: 80px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    & h1 {
+      align-self: center;
+      letter-spacing: 13px;
+      margin: 0;
+      color: #006eff;
+      font-size: 50px;
+    }
+    & h3 {
+      margin: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+      padding-left: 5px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 3px #000000, -2px -2px 3px #000000;
+    }
+  }
+  & .card-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    inline-size: 40px;
+    block-size: 40px;
+    background-color: aliceblue;
+    text-shadow: none;
+    font-size: 25px;
+    user-select: none;
+  }
+  & .card-number-descarded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    inline-size: 40px;
+    block-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    font-size: 25px;
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255),
+      #006eff,
+      rgb(0, 0, 0)
+    );
+  }
+}

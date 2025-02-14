@@ -1,0 +1,15 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    inline-size: 100%;
+    block-size: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(#006eff,#222);
+
+}
+button {
+    border-radius:20px;
+}
