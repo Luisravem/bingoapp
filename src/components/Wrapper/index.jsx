@@ -1,4 +1,4 @@
-import { BrowserRouter, useRoutes } from "react-router-dom";
+import { HashRouter, useRoutes } from "react-router-dom";
 import { Header } from "../Header/index.jsx";
 import { Board } from "../pages/Board/Board.jsx";
 import { Instructions } from "../pages/Instructions/Instructions.jsx";
@@ -15,11 +15,11 @@ const WeaperrRouters = () => {
 const Wrapper = () => {
   return (
     <div className="app-container">
-      <BrowserRouter>
+      <HashRouter>
         <Header></Header>
 
         <WeaperrRouters />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
